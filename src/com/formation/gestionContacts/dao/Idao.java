@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.formation.gestionContacts.model.Personne;
 
+
 public interface Idao {
  
 	int savePersonne(Personne personne);
