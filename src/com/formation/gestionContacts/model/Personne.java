@@ -1,7 +1,10 @@
 package com.formation.gestionContacts.model;
 
+@Entity
 public class Personne {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String nom;
 	private String prenom;
